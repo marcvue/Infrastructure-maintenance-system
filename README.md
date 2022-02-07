@@ -10,3 +10,6 @@ Interpreto que la IP apipa se controlaría haciendo un check sobre alguna propie
 Verification Service, que hace chequeos sobre una lista de constraints decididos desde una capa superior (le llegan del motor Program)
 Routing Service: Tiene una lista de servidores, en mi caso los inicializa él mismo y los devuelve al servicio de verificación y el de procesado.
 ClientService, recoge una lista de requerimientos para los servicios de verificación y procesado y se los transmite. (esto no sé si se tiene que hacer mediante un servicio realmente)
+
+
+// Se me ocurre tarde, pero creo que la idea para poder mandar requerimientos variables es, el servicio de cliente que hace un check del input del usuario, escribe un json que dice qué validación hay que hacer, y el servicio de validación ejecuta unas funciones u otras, con los valores especificados en el json.
