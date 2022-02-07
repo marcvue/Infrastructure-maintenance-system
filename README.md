@@ -13,3 +13,5 @@ ClientService, recoge una lista de requerimientos para los servicios de verifica
 
 
 // Se me ocurre tarde, pero creo que la idea para poder mandar requerimientos variables es, el servicio de cliente que hace un check del input del usuario, escribe un json que dice qué validación hay que hacer, y el servicio de validación ejecuta unas funciones u otras, con los valores especificados en el json.
+
+Como están contando ahora en clase, está todo mal. Cada una de las validaciones se hace con una instancia diferente del servicio.
